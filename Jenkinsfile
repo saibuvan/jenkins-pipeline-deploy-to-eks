@@ -17,7 +17,7 @@ pipeline {
                 }
             }
         }
-        stage("Deploy to EKS Service") {
+        stage("Deploy to EKS Service-2") {
             steps {
                 script {
                     dir('kubernetes') {
